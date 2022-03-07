@@ -95,9 +95,11 @@ End Sub
 
 Performance of Original Code
 2017
+
 ![alt text](https://github.com/GrahamBSereno/Stock-Analysis/blob/main/Resources/PreRefactoring2017.png)
 
 2018
+
 ![alt text](https://github.com/GrahamBSereno/Stock-Analysis/blob/main/Resources/PreRefactoring2018.png)
 
 **Code Refactoring to Boost Efficiency**
@@ -162,9 +164,11 @@ _Refactored Code_
 
 Performance of Refactored Code
 2017
+
 ![alt text](https://github.com/GrahamBSereno/Stock-Analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 2018
+
 ![alt text](https://github.com/GrahamBSereno/Stock-Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 
