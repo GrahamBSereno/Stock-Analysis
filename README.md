@@ -94,6 +94,7 @@ _Original Code_
     End Sub
 
 Performance of Original Code
+
 2017
 
 ![alt text](https://github.com/GrahamBSereno/Stock-Analysis/blob/main/Resources/PreRefactoring2017.png)
