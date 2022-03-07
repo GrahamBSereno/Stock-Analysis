@@ -179,5 +179,5 @@ Performance of Refactored Code
 **Summary**
 
 The main advantages of refactoring code include simplification for the reader and increased efficiency due to reduced redundancy. The main disadvantages of refactoring code include the time lost refactoring code that already works and possible alteration of output accuracy.
-When I refactored the original stock analysis code, I spent additional time refactoring (disadvantage). I was able to significantly improve the efficiency of the code because it took nearly half of the amount of time to execute once refactored. 
+When I refactored the original stock analysis code, I spent additional time refactoring (disadvantage). I was able to significantly improve the efficiency of the code as execution time was reduced by greater than 50% once refactored. 
 
