@@ -1,10 +1,9 @@
 # Stock-Analysis
 
-Overview of Project
+**Overview of Project**
 
 The purpose of this project is to utilize stock ticker data to assess whether each stock is worth investing in. I used Microsoft VBA code to automate the analysis of the ticker data, prompt user input, add conditional fomatting, and provide performance metrics. I then refactored this code to increase performance and simplify my original solution. This allowed for analysis of 2017 and 2018 ticker data at the click of a button.
 
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 **Analysis**
 My original "AllStockAnalysis" VBA code (see below) declared the target worksheet, initialized a series of variables (including performance trackers, user input values, a standard ticker array, and pricing metrics). A For loop was then used to iterate through the values (based on the user inputted year) and calculate the total volume for each ticker in the array. For loops were also used to obtain a starting and ending price for each ticker based upon row positioning. The starting and ending price was then used to calculate a total return using the following formula: endingPrice / startingPrice - 1.
@@ -91,7 +90,7 @@ _Original Code_
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
+    End Sub
 
 Performance of Original Code
 2017
@@ -174,6 +173,6 @@ Performance of Refactored Code
 
 
 **Summary**
-The main advantages of refactoring code is simplification for the reader and increased efficiency due to reduced redundancy. The main disadvantages of refactoring code include the time lost refactoring code that already works and possible alteration of output accuracy.
+The main advantages of refactoring code include simplification for the reader and increased efficiency due to reduced redundancy. The main disadvantages of refactoring code include the time lost refactoring code that already works and possible alteration of output accuracy.
 When I refactored the original stock analysis code, I spent additional time refactoring (disadvantage). I was able to significantly improve the efficiency of the code because it took nearly half of the amount of time to execute once refactored. 
 
