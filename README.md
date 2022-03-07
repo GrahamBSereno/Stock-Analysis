@@ -2,12 +2,12 @@
 
 **Overview of Project**
 
-The purpose of this project is to utilize stock ticker data to assess whether each stock is worth investing in. I used Microsoft VBA code to automate the analysis of the ticker data, prompt user input, add conditional fomatting, and provide performance metrics. I then refactored this code to increase performance and simplify my original solution. This allowed for analysis of 2017 and 2018 ticker data at the click of a button.
+The purpose of this project is to utilize stock ticker data to assess whether each stock is worth investing in. I used Microsoft VBA code to automate the analysis of the ticker data, prompt user input, add conditional fomatting, and provide performance metrics. I then refactored this code to increase performance and simplify my original solution. This allowed for analysis of 2017 and 2018 ticker data with the click of a button.
 
 
 **Analysis**
 
-My original "AllStockAnalysis" VBA code (see below) declared the target worksheet, initialized a series of variables (including performance trackers, user input values, a standard ticker array, and pricing metrics). A For loop was then used to iterate through the values (based on the user inputted year) and calculate the total volume for each ticker in the array. For loops were also used to obtain a starting and ending price for each ticker based upon row positioning. The starting and ending price was then used to calculate a total return using the following formula: endingPrice / startingPrice - 1.
+My original "AllStockAnalysis" VBA code (see below) declared the target worksheet and initialized a series of variables (including performance trackers, user input values, a standard ticker array, and pricing metrics). A For loop was then used to iterate through the values (based on the user inputted year) and calculate the total volume for each ticker in the array. For loops were also used to obtain a starting and ending price for each ticker based on row positioning. The starting and ending price was then used to calculate a total return using the following formula: endingPrice / startingPrice - 1.
 
 _Original Code_
 
@@ -104,7 +104,7 @@ Performance of Original Code
 
 **Code Refactoring to Boost Efficiency**
 
-To refactor the above code, I began by initializing a tickerIndex variable to allow for simplified ticker calling. I then created a series of output arrays that simplified the volume, starting price, and ending price calculations. These output arrays reference the singular tickerIndex variable to access the tickers for looping purposes. A series of IF statements were used to assess the starting and ending point row indexes for price gathering. Finally, a signular For loop was used to iterate through the entire list of tickers and populate ticker names, ticker volumes, and ticker returns. 
+To refactor the above code, I began by initializing a tickerIndex variable to allow for simplified ticker calling. I then created a series of output arrays that simplified the volume, starting price, and ending price calculations. These output arrays reference the singular tickerIndex variable to access the tickers for looping purposes. A series of IF statements were used to assess the starting and ending point row indexes for price gathering. Finally, a singular For loop was used to iterate through the entire list of tickers and populate ticker names, ticker volumes, and ticker returns. 
 
 _Refactored Code_
 
